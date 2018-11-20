@@ -12,11 +12,11 @@ import {BrowserRouter} from 'react-router-dom';
 const store = configureStore()
 
 ReactDOM.render(
-<provider store={store}>
+<Provider store={store}>
   <BrowserRouter>
     <Router />
   </BrowserRouter>
-</provider>
+</Provider>
 , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
